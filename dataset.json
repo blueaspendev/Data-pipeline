@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "AirMax Running Shoes",
+    "category": "Shoes",
+    "price": 49.99,
+    "description": "Lightweight and breathable running shoes designed for performance athletes. Ideal for long-distance running."
+  },
+  {
+    "id": 2,
+    "name": "Galaxy Smartphone",
+    "category": "Gadgets",
+    "price": 699.99,
+    "description": "High-end smartphone with a 108MP camera, 5000mAh battery, and 5G connectivity. Captures stunning photos and videos."
+  },
+  {
+    "id": 3,
+    "name": "Ergo Office Chair",
+    "category": "Furniture",
+    "price": 199.99,
+    "description": "Ergonomically designed office chair with adjustable armrests and lumbar support. Perfect for long working hours."
+  },
+  {
+    "id": 4,
+    "name": "Blender Pro 900",
+    "category": "Home Appliances",
+    "price": 89.99,
+    "description": "Professional-grade blender with a powerful 900-watt motor. Easily crushes ice and blends smoothies in seconds."
+  },
+  {
+    "id": 5,
+    "name": "Noise-Cancelling Headphones",
+    "category": "Accessories",
+    "price": 129.99,
+    "description": "Over-ear headphones with active noise cancellation (ANC). Provides immersive audio with deep bass and clear treble."
+  },
+  {
+    "id": 6,
+    "name": "Gaming Laptop",
+    "category": "Computers",
+    "price": 1299.99,
+    "description": "High-performance gaming laptop with an RTX 3060 GPU, 16GB RAM, and 1TB SSD. Optimized for the latest AAA games."
+  }
+]

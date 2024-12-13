@@ -1,0 +1,53 @@
+comments are provided in every program for better understanding
+For running the program follow the following steps:
+
+1. pip install -r requirements.txt
+this will install all the required dependencied to run the program
+
+
+2. replace the input dataset  which contains a mix of structured and unstructured data with dataset.json (i have taken a sample data)
+
+3. create a database in mysql named mydatabase
+4. in data_ingestion.py file replace username and password in line 14
+5. python data_ingestion.py - to run the file
+this will create a my_table in databse
+
+5. in data_preprocessing.py file replace username and password in line 7
+6. python data_preprocessing.py - to run this file
+this will create a preprocessed_table in database
+
+7. in data_vectorisation file enter your pinecone apikey in line 9 and sql details in line 38
+8. python data_vectorisation.py - to run the file
+this will generate embeddings for the unstructured text data and store them in the vector database
+
+9. update api keys and details in line 14 to 17
+10. python api.py - to run the server
+it has 2 endpoints 
+/search for similarity search
+/rag for Retriever-Augmented Generation
+
+steps to test the api on thunderclient
+1. Create a New Request for /search
+2. Method: POST
+3. URL: http://localhost:8000/search
+4. Body (JSON):
+{
+  "query": "machine learning",
+  "top_k": 5
+}
+5. Click "Send".
+
+same for rag:
+1. Create a New Request for /rag
+2. Method: POST
+3. URL: http://localhost:8000/rag
+4. Body (JSON):
+{
+  "query": "What is machine learning?",
+  "top_k": 3
+}
+5. Click "Send".
+
+
+
+
